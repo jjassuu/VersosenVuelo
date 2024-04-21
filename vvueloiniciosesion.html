@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where2</title>
+    <link rel="stylesheet" href="vviniciosesion.css">
+</head>
+<body>
+<!-- seccion1 de la pagina que incluye el logo y un indicador para que el usuario haga scroll en la página-->
+<div class="seccion1">
+    <img src="versosenvuelo.jpeg" alt="Logo de la página con un avión sobre jazmines">
+    <div class="scroll">Scroll</div>
+</div>
+<!--seccion2 de la pagina con dos contenedores-->
+<div class="seccion2">
+    <div class="sobrenosotrosizqda">
+        <img src="versosenvuelo.jpeg" alt="Logo de la página con un avión sobre jazmines" class="sobrenosotros"/>
+    </div>
+
+    <div class="iniciosesion">
+        <!-- creación de un formulario para que el usuario inicio sesion-->
+        <form name="iniciarapp">
+            <h1> VERSOS EN VUELO </h1>
+            <h2> Inicio de sesión</h2>
+            <div class="inputContainer">
+                <p>Nombre de usuario</p>
+                <input type="text" name="name" value="" class="formElement" />
+            </div>
+            <div class="inputContainer">
+                <p>Contraseña</p>
+                <input type="password" name="password" value="" class="formElement" />
+            </div>
+            <input type="submit" value="ENVIAR" id="button"/>
+            <div class="contraseñaolvidada">
+                <a href="#" class="contraseñalink">¿Has olvidado la contraseña?</a>
+                <hr>
+            </div>
+            <!--contenedor final que contiene un link que te lleva a la página de registro-->
+            <div class="final" style="text-align: center;">
+                <p>¿No tienes una cuenta?</p>
+                <a href="Registro.html" class="registro">Regístrate</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>
